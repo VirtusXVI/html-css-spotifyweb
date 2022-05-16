@@ -13,6 +13,22 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* COMMON */
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    vertical-align: middle;
+    margin: 0.1rem 0;
+}
+
+a{
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
 /* MAIN */
 
 section .main-alignment{
@@ -20,10 +36,50 @@ section .main-alignment{
 
 }
 
+/* NAV */
+
 .nav-menu{
     background-color: lightcoral;
     height: 90vh;
     width: 15%;
+}
+
+.nav-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 50px;
+    margin-top: 1rem;
+}
+
+.icons{
+    height: 25px;
+    vertical-align: middle;
+}
+
+.playlist-section{
+    margin-top: 1rem;
+}
+
+.playlist{
+    color: white;
+    font-size: 14px;
+
+}
+
+.add-playlist{
+    
+}
+
+.selected-home{
+    border-left: 3px solid green;
+    position: absolute;
+    line-height: 25px;
+    top: 72px;
+    left: 0;
+    width: 2px;
 }
 
 .main-section{
