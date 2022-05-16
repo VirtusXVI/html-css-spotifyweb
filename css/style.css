@@ -12,3 +12,40 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/* MAIN */
+
+section .main-alignment{
+    display: flex;
+
+}
+
+.nav-menu{
+    background-color: lightcoral;
+    height: 90vh;
+    width: 15%;
+}
+
+.main-section{
+    background-color: #141922;
+    height: 90vh;
+    width: 85%;
+    overflow-y: auto;
+    display: flex;
+}
+
+.upgrade{
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    height: 10vh;
+}
+
+.homepage{
+    width: 100%;
+}
+/* FOOTER */
+
+.player{
+    background-color: lightblue;
+    height: 10vh;
+}
