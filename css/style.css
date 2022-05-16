@@ -30,14 +30,17 @@ section .main-alignment{
     background-color: #141922;
     height: 90vh;
     width: 85%;
+    color: white;
     overflow-y: auto;
     display: flex;
+    padding-top: 10vh;
 }
 
 .upgrade{
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
     height: 10vh;
+    color: white;
 }
 
 .homepage{
