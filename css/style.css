@@ -41,7 +41,7 @@ section .main-alignment{
 .nav-menu{
     background-color: lightcoral;
     height: 90vh;
-    width: 15%;
+    width: 288px;
 }
 
 .nav-container{
