@@ -285,6 +285,75 @@ section .main-alignment{
 /* FOOTER */
 
 .player{
-    background-color: lightblue;
+    background-color: #282828;
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playing-song{
+    height: 60px;
+}
+
+.song-title{
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+}
+
+.song-artist{
+    font-size: 13px;
+    color: grey;
+    margin-left: 10px;
+}
+
+.favourite-icon{
+    margin-left: 60px;
+}
+
+.song-player{
+    height: 100%;
+    flex-grow: 1;
+}
+
+.player-buttons{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-buttons i{
+    margin: 0 1rem;
+    color: white;
+}
+
+.song-timing{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-timing span{
+    margin: 0 1rem;
+    color: white;
+}
+
+.progress-bar{
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.volume{
+    width: 15%;
 }
