@@ -40,7 +40,7 @@ section .main-alignment{
 /* NAV */
 
 .nav-menu{
-    background-color: lightcoral;
+    background-color: #000000;
     height: 90vh;
     width: 288px;
     overflow-y: hidden;
@@ -109,12 +109,17 @@ section .main-alignment{
 
 .add-playlist-text{
     vertical-align: middle;
+    color: grey;
 }
 
 /* PROFILE SECTION */
 
 .profile{
     margin-top: 1rem;
+}
+
+.install-app{
+    color: white;
 }
 
 .profile-icon{
