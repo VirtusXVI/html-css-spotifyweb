@@ -46,27 +46,27 @@ section .main-alignment{
     overflow-y: hidden;
 }
 
+/* NAV CONTAINER */
+
 .nav-container{
     width: 85%;
     height: 100%;
     margin: 0 auto;
 }
 
-.logo-container{
-
-}
-
-.menu-container{
-
-}
+/* PLAYLISTS CONTAINER */
 
 .playlists-container{
     flex-grow: 1;
 }
 
+/* PROFILE CONTAINER */
+
 .profile-container{
     margin-bottom: 1rem;
 }
+
+/* FLEX-CONTAINER */
 
 .flex-nav{
     height: 100%;
@@ -74,16 +74,22 @@ section .main-alignment{
     flex-direction: column;
 }
 
+/* LOGO */
+
 .logo{
     height: 50px;
     margin-top: 1rem;
     margin-left: 1rem;
 }
 
+/* ICONS */
+
 .icons{
     height: 25px;
     vertical-align: middle;
 }
+
+/* PLAYLIST SECTION */
 
 .playlist-section{
     margin-top: 1rem;
@@ -104,6 +110,8 @@ section .main-alignment{
 .add-playlist-text{
     vertical-align: middle;
 }
+
+/* PROFILE SECTION */
 
 .profile{
     margin-top: 1rem;
@@ -131,6 +139,8 @@ section .main-alignment{
     width: 2px;
 }
 
+/* MAIN SECTION */
+
 .main-section{
     background-color: #141922;
     height: 90vh;
@@ -141,12 +151,16 @@ section .main-alignment{
     padding-top: 10vh;
 }
 
+/* UPGRADE BAR */
+
 .upgrade{
     background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
     height: 10vh;
     color: white;
 }
+
+/* HOMEPAGE SECTION */
 
 .homepage{
     width: 100%;
