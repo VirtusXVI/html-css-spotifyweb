@@ -177,8 +177,9 @@ section .main-alignment{
 /* UPGRADE BAR */
 
 .upgrade{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
+    z-index: 2;
     width: 100%;
     height: 10vh;
     color: white;
@@ -205,6 +206,81 @@ section .main-alignment{
 
 .homepage{
     width: 100%;
+}
+
+/* HOMEPAGE MENU */
+
+.homepage-menu-spacings{
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homepage-menu li{
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.homepage-menu li:first-child{
+    border-bottom: 1px solid green;
+}
+
+.homepage-menu{
+    padding-top: 0rem;
+    display: flex;
+}
+
+/* SONGS SECTION */
+
+.songs-section-container{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.albums-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.short{
+    justify-content: flex-start;
+}
+/* CARD STYLES */
+
+.card{
+    width: calc(95% / 6);
+    height: 400px;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.short .card{
+    margin-right: 15px;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.card-text{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.album-title{
+    font-weight: bold;
+}
+
+.artist{
+    font-size: 13px;
+    margin-top: 5px;
+    color: grey;
 }
 /* FOOTER */
 
