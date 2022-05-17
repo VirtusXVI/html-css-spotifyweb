@@ -43,6 +43,7 @@ section .main-alignment{
     background-color: lightcoral;
     height: 90vh;
     width: 288px;
+    overflow-y: hidden;
 }
 
 .nav-container{
@@ -52,7 +53,7 @@ section .main-alignment{
 }
 
 .logo-container{
-    
+
 }
 
 .menu-container{
