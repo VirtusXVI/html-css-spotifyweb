@@ -350,10 +350,27 @@ section .main-alignment{
 
 .progress-bar{
     width: 400px;
-    border: 1px solid white;
     border-radius: 20px;
 }
 
 .volume{
     width: 15%;
+    display: flex;
+}
+
+.volume i{
+    padding: 0 10px;
+    color: white;
+}
+
+.smaller-progress-bar{
+    width: 120px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.volume hr{
+    width: 120px;
+    padding-left: 20px;
 }
