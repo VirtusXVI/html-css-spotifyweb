@@ -57,12 +57,12 @@ section .main-alignment{
 .nav-container{
     width: 85%;
     height: 100%;
-    margin: 0 auto;
 }
 
 /* PLAYLISTS CONTAINER */
 
 .playlists-container{
+    padding-left: 13px;
     flex-grow: 1;
 }
 
@@ -70,6 +70,7 @@ section .main-alignment{
 
 .profile-container{
     margin-bottom: 1rem;
+    padding-left: 13px;
 }
 
 /* FLEX-CONTAINER */
@@ -86,6 +87,18 @@ section .main-alignment{
     height: 50px;
     margin-top: 1rem;
     margin-left: 1rem;
+}
+
+.menu-container li{
+    border-left: 3px solid transparent;
+    padding-left: 10px;
+}
+
+/* GREEN BORDER */
+
+.menu-container li.active {
+    border-left: 3px solid green;
+    padding-left: 10px;
 }
 
 /* ICONS */
