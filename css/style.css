@@ -17,11 +17,12 @@ body{
 
 ul{
     list-style-type: none;
+    padding-top: 1rem;
 }
 
 li{
     vertical-align: middle;
-    margin: 0.1rem 0;
+    padding: 0.2rem 0;
 }
 
 a{
@@ -46,12 +47,36 @@ section .main-alignment{
 
 .nav-container{
     width: 85%;
+    height: 100%;
     margin: 0 auto;
+}
+
+.logo-container{
+    
+}
+
+.menu-container{
+
+}
+
+.playlists-container{
+    flex-grow: 1;
+}
+
+.profile-container{
+    margin-bottom: 1rem;
+}
+
+.flex-nav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo{
     height: 50px;
     margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 .icons{
@@ -70,14 +95,37 @@ section .main-alignment{
 }
 
 .add-playlist{
-    
+    font-size: 30px;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+.add-playlist-text{
+    vertical-align: middle;
+}
+
+.profile{
+    margin-top: 1rem;
+}
+
+.profile-icon{
+    height: 25px;
+    background-color: grey;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.profile-name{
+    font-weight: bold;
+    vertical-align: middle;
+    color: white;
 }
 
 .selected-home{
     border-left: 3px solid green;
     position: absolute;
     line-height: 25px;
-    top: 72px;
+    top: 90px;
     left: 0;
     width: 2px;
 }
