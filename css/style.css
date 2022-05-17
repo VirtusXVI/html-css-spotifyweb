@@ -1,4 +1,11 @@
 
+    /* RESPONSIVE SIZES */
+/* lg -> desktop sopra 1100px
+md -> max 1100px
+s -> max 700px
+xs -> max 600px */
+
+
 /* RESET */
 
 * {
@@ -34,7 +41,6 @@ a{
 
 section .main-alignment{
     display: flex;
-
 }
 
 /* NAV */
@@ -98,7 +104,6 @@ section .main-alignment{
 .playlist{
     color: white;
     font-size: 14px;
-
 }
 
 .add-playlist{
@@ -161,8 +166,22 @@ section .main-alignment{
 .upgrade{
     background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
+    width: 100%;
     height: 10vh;
     color: white;
+}
+
+.upgrade-flex {
+    display: flex;
+    height: 100%;
+    width: calc(100vw - 288px);
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    padding: 1rem 2rem;
 }
 
 /* HOMEPAGE SECTION */
