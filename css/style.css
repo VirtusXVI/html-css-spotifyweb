@@ -288,7 +288,7 @@ section .main-alignment{
     background-color: #282828;
     height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -297,6 +297,7 @@ section .main-alignment{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 10px;
 }
 
 .playing-song{
@@ -354,7 +355,6 @@ section .main-alignment{
 }
 
 .volume{
-    width: 15%;
     display: flex;
 }
 
@@ -371,6 +371,6 @@ section .main-alignment{
 }
 
 .volume hr{
-    width: 120px;
+    width: 100px;
     padding-left: 20px;
 }
