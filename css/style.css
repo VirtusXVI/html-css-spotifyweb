@@ -182,6 +182,10 @@ section .main-alignment{
 
 .btn{
     padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+    margin-right: 1rem;
 }
 
 /* HOMEPAGE SECTION */
