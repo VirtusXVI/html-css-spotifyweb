@@ -282,8 +282,9 @@ section .main-alignment{
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 90px;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-size: 50px;
     color: white;
     display: none;
@@ -291,6 +292,7 @@ section .main-alignment{
 
 .card-image{
     background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 .short .card{
@@ -410,10 +412,13 @@ section .main-alignment{
 .smaller-progress-bar{
     width: 25px;
     vertical-align: middle;
-    display: flex;
-    align-items: center;
     background-color: white;
     height: 2px;
+}
+
+.volume-section{
+    width: 100px;
+    height: 100%;
 }
 
 .smaller-progress-bar:hover{
