@@ -481,7 +481,6 @@ section .main-alignment{
     }
 
     .card{
-        width: none;
         min-width: 180px;
         margin-right: 1rem;
     }
