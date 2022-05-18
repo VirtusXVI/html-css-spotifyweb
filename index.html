@@ -19,10 +19,6 @@
                 <div class="main-alignment">
                     <nav class="nav-menu">
 
-                        <!-- SELECTED HOME -->
-
-                        <span class="selected-home">&nbsp; </span>
-
                         <!-- NAV CONTAINER -->
 
                         <div class="nav-container">
@@ -32,15 +28,16 @@
 
                             <div class="logo-container">
                                 <img class="logo" src="img/logo.svg" alt="Spotify Logo">
+                                <img class="logo small-logo" src="img/logo-small.svg" alt="">
                             </div>
 
                             <!-- MENU -->
 
                             <div class="menu-container">
                                 <ul>
-                                    <li class="active"><a href=""><img class="icons" src="img/home.svg" alt=""> Home</a></li>
-                                    <li><a href=""><img class="icons" src="img/search.svg" alt=""> Cerca</a></li>
-                                    <li><a href=""><img class="icons" src="img/libreria.svg" alt=""> La tua libreria</a></li>
+                                    <li class="active"><a href=""><img class="icons" src="img/home.svg" alt=""><span> Home</span></a></li>
+                                    <li><a href=""><img class="icons" src="img/search.svg" alt=""><span> Cerca</span></a></li>
+                                    <li><a href=""><img class="icons" src="img/libreria.svg" alt=""><span> La tua libreria</span></a></li>
                                 </ul>
                             </div>
 
@@ -260,18 +257,29 @@
                             <i class="fa-solid fa-arrow-rotate-right"></i>
                         </div>
                         <div class="song-timing">
-                            <span>0:25 </span><span class="progress-bar"></span><span> 4:35</span>
+                            <span>0:25 </span>
+                            <div class="progress-bar">
+                                <div class="smaller-progress-bar bigger">
+                                    <div class="progress-dot">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <span> 4:35</span>
                         </div>
                     </div>
-                    <div>
-                        <div class="volume">
-                            <div class="volume-icon-section">
-                                <i class="fa-solid fa-list"></i>
-                                <i class="fa-solid fa-computer"></i>
-                                <span class="volume-icon"><i class="fa-solid fa-volume-high"></i></span>
-                            </div>
-                            <div class="volume-bar-section">
-                                <span class="smaller-progress-bar"></span><span class="progress-bar volume-bar"></span>
+                    <div class="volume">
+                        <div class="volume-icon-section">
+                            <i class="fa-solid fa-list"></i>
+                            <i class="fa-solid fa-computer"></i>
+                            <span class="volume-icon"><i class="fa-solid fa-volume-high"></i></span>
+                        </div>
+                        <div class="volume-bar-section">
+                            <div class="progress-bar volume-bar">
+                                <div class="smaller-progress-bar">
+                                    <div class="progress-dot">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
